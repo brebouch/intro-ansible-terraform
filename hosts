@@ -1,0 +1,11 @@
+[iosxe:vars]
+ansible_connection=ansible.netcommon.network_cli
+ansible_user=cisco123
+ansible_password=cisco123
+ansible_become=yes
+ansible_become_method=enable
+ansible_network_os=cisco.ios.ios
+subnet_id=REPLACE WITH INTEGER 0-254
+
+[iosxe]
+REPLACE WITH PUBLIC ROUTER IP
